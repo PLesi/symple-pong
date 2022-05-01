@@ -127,8 +127,7 @@ def game():
     def moveUp(event):
         globals()
         c.move(player,0,-playerSpeed)
-#test githubu
-
+        
     def moveDown(event):
         globals()
         c.move(player,0,playerSpeed)
