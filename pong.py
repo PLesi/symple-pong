@@ -1,11 +1,10 @@
+
 from tkinter import *
 from random import *
 
 
 c = Canvas(width=600,height=400,bg = '#515252')
 c.pack()
-
-
 
 title = True
 
@@ -128,7 +127,7 @@ def game():
     def moveUp(event):
         globals()
         c.move(player,0,-playerSpeed)
-
+#test githubu
 
     def moveDown(event):
         globals()
@@ -215,11 +214,7 @@ def game():
         if gameOver == True:
             c.move(player,0,Ymove)
 
-
-
         c.after(50)
         c.update()
-
-
 
 mainloop()
